@@ -46,7 +46,7 @@ public class D09_Wishlist_StepDefinitions {
     @And("user waits until success message disappears and clicks on wishlist Tab")
     public void click_wishlistTab(){
 
-        Assert.assertTrue(new WebDriverWait(driver, Duration.ofSeconds(4))
+        Assert.assertTrue(new WebDriverWait(driver, Duration.ofSeconds(5))
                 .until(ExpectedConditions.invisibilityOfElementLocated(By.cssSelector("div[class=\"bar-notification success\"]"))));
 
         wishlist.wishlistTab().click();
