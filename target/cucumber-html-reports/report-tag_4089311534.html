@@ -76,7 +76,7 @@ $(document).ready(function() {
     <tr class="info">
       <td>Cucumber HTML Reports</td>
         <td>1</td>
-      <td>15 Dec 2022, 00:04</td>
+      <td>15 Dec 2022, 00:52</td>
     </tr>
   </tbody>
 </table>
@@ -129,18 +129,18 @@ $(document).ready(function() {
         <tbody>
         <tr>
           <td class="tagname">@smoke</td>
-          <td      class="passed"    >55</td>
-          <td      class="failed"    >5</td>
-          <td     class="skipped"   >2</td>
+          <td      class="passed"    >59</td>
+          <td      class="failed"    >3</td>
+          <td >0</td>
           <td >0</td>
           <td >0</td>
           <td class="total">62</td>
 
-          <td  class="passed"    >16</td>
-          <td  class="failed"    >5</td>
+          <td  class="passed"    >18</td>
+          <td  class="failed"    >3</td>
           <td class="total">21</td>
 
-          <td class="duration" data-value="62237667900">1:2.237</td>
+          <td class="duration" data-value="60608908800">1:0.608</td>
           <td class="failed">Failed</td>
         </tr>
         </tbody>
@@ -183,12 +183,12 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">23.247</span>
+  <span class="lead-duration duration">12.643</span>
 
 
-  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Scenario</span>
   <span class="name">User could register with valid data</span>
 
@@ -199,7 +199,7 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-1" class="collapse collapsable-details  in ">
+  <div id="element-1" class="collapse collapsable-details ">
 
 
   <div class="inner-level hooks-element-before">
@@ -221,7 +221,7 @@ $(document).ready(function() {
             <span class="keyword indention">Before</span>
               <span class="location name">org.example.Step_Definitions.Hooks.open_browser()</span>
 
-  <span class="lead-duration duration">5.171</span>
+  <span class="lead-duration duration">3.912</span>
 
           </div>
 
@@ -238,9 +238,9 @@ $(document).ready(function() {
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-3">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-3">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -250,7 +250,7 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-3" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-3" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
@@ -258,7 +258,7 @@ $(document).ready(function() {
   <span class="keyword indention">Given</span>
   <span class="name">user goes to register page</span>
 
-  <span class="lead-duration duration">1.201</span>
+  <span class="lead-duration duration">0.627</span>
 
 </div>
 
@@ -285,7 +285,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">user enters valid data</span>
 
-  <span class="lead-duration duration">8.115</span>
+  <span class="lead-duration duration">8.109</span>
 
 </div>
 
@@ -312,7 +312,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">user click on register option</span>
 
-  <span class="lead-duration duration">3.885</span>
+  <span class="lead-duration duration">3.814</span>
 
 </div>
 
@@ -335,11 +335,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-Then failed">
+<div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
   <span class="name">user should register successfully</span>
 
-  <span class="lead-duration duration">10.045</span>
+  <span class="lead-duration duration">0.035</span>
 
 </div>
 
@@ -347,42 +347,6 @@ $(document).ready(function() {
 
 
 
-
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-4">
-          <a>org.openqa.selenium.NoSuchElementException:</a>
-      </div>
-      <div id="msg-4" class="collapse collapsable-details  in ">
-        <pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.ico\-logout&quot;}
-  (Session info: chrome=108.0.5359.100)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.7.1', revision: 'c6795baf1a3'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [89a6438cff1ebee742759c4d02f168d5, findElement {using=class name, value=ico-logout}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.100, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\745G5~1\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:51503}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51503/devtoo..., se:cdpVersion: 108.0.5359.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 89a6438cff1ebee742759c4d02f168d5
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:551)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-	at org.example.Step_Definitions.D01_Registration_StepDefinitions.successful_Registration(D01_Registration_StepDefinitions.java:78)
-	at &#10045;.user should register successfully(file:///D:/E-Commerce%20Website%20Project/E-Commerce_Website_Testing/src/main/resources/Features_Folder/F01_Registration.feature:9)
-</pre>
-      </div>
-    </div>
-  </div>
 
 
 
@@ -398,11 +362,11 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
       <div class="step">
 
 
-<div class="brief step-name-And skipped">
+<div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
   <span class="name">registration completion message should appear</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.056</span>
 
 </div>
 
@@ -429,7 +393,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-5">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-4">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -441,13 +405,13 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
     </div>
 
-    <div id="after-5" class="inner-level collapse collapsable-details ">
+    <div id="after-4" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">org.example.Step_Definitions.Hooks.close_browser()</span>
 
-  <span class="lead-duration duration">3.314</span>
+  <span class="lead-duration duration">3.336</span>
 
           </div>
 
@@ -478,10 +442,10 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 </div>
 
 
-  <span class="lead-duration duration">2.413</span>
+  <span class="lead-duration duration">2.372</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-6">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-5">
 
 <div class="brief passed">
   <span class="keyword indention">Scenario</span>
@@ -494,11 +458,11 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
   </span>
   <div class="description indention"></div>
 
-  <div id="element-6" class="collapse collapsable-details ">
+  <div id="element-5" class="collapse collapsable-details ">
 
 
   <div class="inner-level hooks-element-before">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-7">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-6">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -510,13 +474,13 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
     </div>
 
-    <div id="before-7" class="inner-level collapse collapsable-details ">
+    <div id="before-6" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">Before</span>
               <span class="location name">org.example.Step_Definitions.Hooks.open_browser()</span>
 
-  <span class="lead-duration duration">2.228</span>
+  <span class="lead-duration duration">2.749</span>
 
           </div>
 
@@ -533,7 +497,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-8">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-7">
 
 <div class="brief passed">
   <span class="keyword indention">Steps</span>
@@ -545,7 +509,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
   </div>
 
-  <div id="steps-8" class="inner-level collapse collapsable-details ">
+  <div id="steps-7" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
@@ -580,7 +544,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
   <span class="keyword indention">When</span>
   <span class="name">user enters <span class="argument">&quot;aessam@gmail.com&quot;</span> and <span class="argument">&quot;123456&quot;</span></span>
 
-  <span class="lead-duration duration">0.616</span>
+  <span class="lead-duration duration">0.610</span>
 
 </div>
 
@@ -607,7 +571,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
   <span class="keyword indention">And</span>
   <span class="name">user click on login button</span>
 
-  <span class="lead-duration duration">0.659</span>
+  <span class="lead-duration duration">0.626</span>
 
 </div>
 
@@ -634,7 +598,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
   <span class="keyword indention">Then</span>
   <span class="name">user should be login successfully</span>
 
-  <span class="lead-duration duration">0.014</span>
+  <span class="lead-duration duration">0.008</span>
 
 </div>
 
@@ -661,7 +625,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
   <span class="keyword indention">And</span>
   <span class="name">user go to the home page</span>
 
-  <span class="lead-duration duration">0.045</span>
+  <span class="lead-duration duration">0.049</span>
 
 </div>
 
@@ -688,7 +652,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-9">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-8">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -700,13 +664,13 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
     </div>
 
-    <div id="after-9" class="inner-level collapse collapsable-details ">
+    <div id="after-8" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">org.example.Step_Definitions.Hooks.close_browser()</span>
 
-  <span class="lead-duration duration">3.412</span>
+  <span class="lead-duration duration">4.051</span>
 
           </div>
 
@@ -737,10 +701,10 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 </div>
 
 
-  <span class="lead-duration duration">2.245</span>
+  <span class="lead-duration duration">1.289</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-10">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-9">
 
 <div class="brief passed">
   <span class="keyword indention">Scenario</span>
@@ -753,11 +717,11 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
   </span>
   <div class="description indention"></div>
 
-  <div id="element-10" class="collapse collapsable-details ">
+  <div id="element-9" class="collapse collapsable-details ">
 
 
   <div class="inner-level hooks-element-before">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-11">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-10">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -769,13 +733,13 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
     </div>
 
-    <div id="before-11" class="inner-level collapse collapsable-details ">
+    <div id="before-10" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">Before</span>
               <span class="location name">org.example.Step_Definitions.Hooks.open_browser()</span>
 
-  <span class="lead-duration duration">2.174</span>
+  <span class="lead-duration duration">2.415</span>
 
           </div>
 
@@ -792,7 +756,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-12">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-11">
 
 <div class="brief passed">
   <span class="keyword indention">Steps</span>
@@ -804,7 +768,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
   </div>
 
-  <div id="steps-12" class="inner-level collapse collapsable-details ">
+  <div id="steps-11" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
@@ -812,7 +776,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
   <span class="keyword indention">When</span>
   <span class="name">user enters <span class="argument">&quot;ali@gmail.com&quot;</span> and <span class="argument">&quot;wrongPassword&quot;</span></span>
 
-  <span class="lead-duration duration">1.346</span>
+  <span class="lead-duration duration">0.881</span>
 
 </div>
 
@@ -839,7 +803,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
   <span class="keyword indention">And</span>
   <span class="name">user click on login button</span>
 
-  <span class="lead-duration duration">0.840</span>
+  <span class="lead-duration duration">0.351</span>
 
 </div>
 
@@ -866,7 +830,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
   <span class="keyword indention">Then</span>
   <span class="name">user should not login successfully</span>
 
-  <span class="lead-duration duration">0.058</span>
+  <span class="lead-duration duration">0.055</span>
 
 </div>
 
@@ -893,7 +857,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-13">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-12">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -905,13 +869,13 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
     </div>
 
-    <div id="after-13" class="inner-level collapse collapsable-details ">
+    <div id="after-12" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">org.example.Step_Definitions.Hooks.close_browser()</span>
 
-  <span class="lead-duration duration">4.248</span>
+  <span class="lead-duration duration">3.812</span>
 
           </div>
 
@@ -942,10 +906,10 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 </div>
 
 
-  <span class="lead-duration duration">1.671</span>
+  <span class="lead-duration duration">2.112</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-14">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-13">
 
 <div class="brief passed">
   <span class="keyword indention">Scenario</span>
@@ -958,11 +922,11 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
   </span>
   <div class="description indention"></div>
 
-  <div id="element-14" class="collapse collapsable-details ">
+  <div id="element-13" class="collapse collapsable-details ">
 
 
   <div class="inner-level hooks-element-before">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-15">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-14">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -974,13 +938,13 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
     </div>
 
-    <div id="before-15" class="inner-level collapse collapsable-details ">
+    <div id="before-14" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">Before</span>
               <span class="location name">org.example.Step_Definitions.Hooks.open_browser()</span>
 
-  <span class="lead-duration duration">1.808</span>
+  <span class="lead-duration duration">2.279</span>
 
           </div>
 
@@ -997,7 +961,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-16">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-15">
 
 <div class="brief passed">
   <span class="keyword indention">Steps</span>
@@ -1009,7 +973,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
   </div>
 
-  <div id="steps-16" class="inner-level collapse collapsable-details ">
+  <div id="steps-15" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
@@ -1017,7 +981,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
   <span class="keyword indention">Given</span>
   <span class="name">user goes to login page</span>
 
-  <span class="lead-duration duration">0.632</span>
+  <span class="lead-duration duration">1.073</span>
 
 </div>
 
@@ -1044,7 +1008,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
   <span class="keyword indention">And</span>
   <span class="name">user click on forgot password</span>
 
-  <span class="lead-duration duration">0.496</span>
+  <span class="lead-duration duration">0.517</span>
 
 </div>
 
@@ -1071,7 +1035,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
   <span class="keyword indention">When</span>
   <span class="name">user enters his registered email</span>
 
-  <span class="lead-duration duration">0.090</span>
+  <span class="lead-duration duration">0.089</span>
 
 </div>
 
@@ -1098,7 +1062,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
   <span class="keyword indention">And</span>
   <span class="name">press on Recover button</span>
 
-  <span class="lead-duration duration">0.419</span>
+  <span class="lead-duration duration">0.400</span>
 
 </div>
 
@@ -1125,7 +1089,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
   <span class="keyword indention">Then</span>
   <span class="name">user should reset his password successfully</span>
 
-  <span class="lead-duration duration">0.031</span>
+  <span class="lead-duration duration">0.033</span>
 
 </div>
 
@@ -1152,7 +1116,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-17">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-16">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -1164,13 +1128,13 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
     </div>
 
-    <div id="after-17" class="inner-level collapse collapsable-details ">
+    <div id="after-16" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">org.example.Step_Definitions.Hooks.close_browser()</span>
 
-  <span class="lead-duration duration">3.280</span>
+  <span class="lead-duration duration">3.886</span>
 
           </div>
 
@@ -1201,10 +1165,10 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 </div>
 
 
-  <span class="lead-duration duration">0.939</span>
+  <span class="lead-duration duration">0.991</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-18">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-17">
 
 <div class="brief passed">
   <span class="keyword indention">Scenario Outline</span>
@@ -1217,11 +1181,11 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
   </span>
   <div class="description indention"></div>
 
-  <div id="element-18" class="collapse collapsable-details ">
+  <div id="element-17" class="collapse collapsable-details ">
 
 
   <div class="inner-level hooks-element-before">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-19">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-18">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -1233,13 +1197,13 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
     </div>
 
-    <div id="before-19" class="inner-level collapse collapsable-details ">
+    <div id="before-18" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">Before</span>
               <span class="location name">org.example.Step_Definitions.Hooks.open_browser()</span>
 
-  <span class="lead-duration duration">1.693</span>
+  <span class="lead-duration duration">1.714</span>
 
           </div>
 
@@ -1256,7 +1220,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-20">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-19">
 
 <div class="brief passed">
   <span class="keyword indention">Steps</span>
@@ -1268,7 +1232,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
   </div>
 
-  <div id="steps-20" class="inner-level collapse collapsable-details ">
+  <div id="steps-19" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
@@ -1276,7 +1240,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
   <span class="keyword indention">When</span>
   <span class="name">user click on search box and write <span class="argument">&quot;book&quot;</span></span>
 
-  <span class="lead-duration duration">0.089</span>
+  <span class="lead-duration duration">0.114</span>
 
 </div>
 
@@ -1303,7 +1267,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
   <span class="keyword indention">And</span>
   <span class="name">user press on the search button</span>
 
-  <span class="lead-duration duration">0.692</span>
+  <span class="lead-duration duration">0.702</span>
 
 </div>
 
@@ -1330,7 +1294,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
   <span class="keyword indention">Then</span>
   <span class="name"><span class="argument">&quot;book&quot;</span> should appear successfully</span>
 
-  <span class="lead-duration duration">0.158</span>
+  <span class="lead-duration duration">0.175</span>
 
 </div>
 
@@ -1357,7 +1321,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-21">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-20">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -1369,13 +1333,13 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
     </div>
 
-    <div id="after-21" class="inner-level collapse collapsable-details ">
+    <div id="after-20" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">org.example.Step_Definitions.Hooks.close_browser()</span>
 
-  <span class="lead-duration duration">4.181</span>
+  <span class="lead-duration duration">3.437</span>
 
           </div>
 
@@ -1406,10 +1370,10 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 </div>
 
 
-  <span class="lead-duration duration">0.853</span>
+  <span class="lead-duration duration">0.840</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-22">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-21">
 
 <div class="brief passed">
   <span class="keyword indention">Scenario Outline</span>
@@ -1422,11 +1386,11 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
   </span>
   <div class="description indention"></div>
 
-  <div id="element-22" class="collapse collapsable-details ">
+  <div id="element-21" class="collapse collapsable-details ">
 
 
   <div class="inner-level hooks-element-before">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-23">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-22">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -1438,13 +1402,13 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
     </div>
 
-    <div id="before-23" class="inner-level collapse collapsable-details ">
+    <div id="before-22" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">Before</span>
               <span class="location name">org.example.Step_Definitions.Hooks.open_browser()</span>
 
-  <span class="lead-duration duration">1.772</span>
+  <span class="lead-duration duration">1.728</span>
 
           </div>
 
@@ -1461,7 +1425,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-24">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-23">
 
 <div class="brief passed">
   <span class="keyword indention">Steps</span>
@@ -1473,7 +1437,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
   </div>
 
-  <div id="steps-24" class="inner-level collapse collapsable-details ">
+  <div id="steps-23" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
@@ -1481,7 +1445,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
   <span class="keyword indention">When</span>
   <span class="name">user click on search box and write <span class="argument">&quot;laptop&quot;</span></span>
 
-  <span class="lead-duration duration">0.092</span>
+  <span class="lead-duration duration">0.094</span>
 
 </div>
 
@@ -1508,7 +1472,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
   <span class="keyword indention">And</span>
   <span class="name">user press on the search button</span>
 
-  <span class="lead-duration duration">0.668</span>
+  <span class="lead-duration duration">0.645</span>
 
 </div>
 
@@ -1535,7 +1499,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
   <span class="keyword indention">Then</span>
   <span class="name"><span class="argument">&quot;laptop&quot;</span> should appear successfully</span>
 
-  <span class="lead-duration duration">0.092</span>
+  <span class="lead-duration duration">0.100</span>
 
 </div>
 
@@ -1562,7 +1526,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-25">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-24">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -1574,13 +1538,13 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
     </div>
 
-    <div id="after-25" class="inner-level collapse collapsable-details ">
+    <div id="after-24" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">org.example.Step_Definitions.Hooks.close_browser()</span>
 
-  <span class="lead-duration duration">3.295</span>
+  <span class="lead-duration duration">3.821</span>
 
           </div>
 
@@ -1611,10 +1575,10 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 </div>
 
 
-  <span class="lead-duration duration">0.877</span>
+  <span class="lead-duration duration">0.917</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-26">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-25">
 
 <div class="brief passed">
   <span class="keyword indention">Scenario Outline</span>
@@ -1627,11 +1591,11 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
   </span>
   <div class="description indention"></div>
 
-  <div id="element-26" class="collapse collapsable-details ">
+  <div id="element-25" class="collapse collapsable-details ">
 
 
   <div class="inner-level hooks-element-before">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-27">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-26">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -1643,13 +1607,13 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
     </div>
 
-    <div id="before-27" class="inner-level collapse collapsable-details ">
+    <div id="before-26" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">Before</span>
               <span class="location name">org.example.Step_Definitions.Hooks.open_browser()</span>
 
-  <span class="lead-duration duration">2.143</span>
+  <span class="lead-duration duration">1.769</span>
 
           </div>
 
@@ -1666,7 +1630,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-28">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-27">
 
 <div class="brief passed">
   <span class="keyword indention">Steps</span>
@@ -1678,7 +1642,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
   </div>
 
-  <div id="steps-28" class="inner-level collapse collapsable-details ">
+  <div id="steps-27" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
@@ -1686,7 +1650,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
   <span class="keyword indention">When</span>
   <span class="name">user click on search box and write <span class="argument">&quot;nike&quot;</span></span>
 
-  <span class="lead-duration duration">0.090</span>
+  <span class="lead-duration duration">0.103</span>
 
 </div>
 
@@ -1713,7 +1677,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
   <span class="keyword indention">And</span>
   <span class="name">user press on the search button</span>
 
-  <span class="lead-duration duration">0.659</span>
+  <span class="lead-duration duration">0.674</span>
 
 </div>
 
@@ -1740,7 +1704,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
   <span class="keyword indention">Then</span>
   <span class="name"><span class="argument">&quot;nike&quot;</span> should appear successfully</span>
 
-  <span class="lead-duration duration">0.127</span>
+  <span class="lead-duration duration">0.140</span>
 
 </div>
 
@@ -1767,7 +1731,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-29">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-28">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -1779,13 +1743,13 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
     </div>
 
-    <div id="after-29" class="inner-level collapse collapsable-details ">
+    <div id="after-28" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">org.example.Step_Definitions.Hooks.close_browser()</span>
 
-  <span class="lead-duration duration">3.372</span>
+  <span class="lead-duration duration">3.830</span>
 
           </div>
 
@@ -1816,10 +1780,10 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 </div>
 
 
-  <span class="lead-duration duration">2.025</span>
+  <span class="lead-duration duration">1.981</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-30">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-29">
 
 <div class="brief passed">
   <span class="keyword indention">Scenario Outline</span>
@@ -1832,11 +1796,11 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
   </span>
   <div class="description indention"></div>
 
-  <div id="element-30" class="collapse collapsable-details ">
+  <div id="element-29" class="collapse collapsable-details ">
 
 
   <div class="inner-level hooks-element-before">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-31">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-30">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -1848,13 +1812,13 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
     </div>
 
-    <div id="before-31" class="inner-level collapse collapsable-details ">
+    <div id="before-30" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">Before</span>
               <span class="location name">org.example.Step_Definitions.Hooks.open_browser()</span>
 
-  <span class="lead-duration duration">1.601</span>
+  <span class="lead-duration duration">1.748</span>
 
           </div>
 
@@ -1871,7 +1835,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-32">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-31">
 
 <div class="brief passed">
   <span class="keyword indention">Steps</span>
@@ -1883,7 +1847,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
   </div>
 
-  <div id="steps-32" class="inner-level collapse collapsable-details ">
+  <div id="steps-31" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
@@ -1891,7 +1855,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
   <span class="keyword indention">When</span>
   <span class="name">user click on search box and write <span class="argument">&quot;SCI_FAITH&quot;</span></span>
 
-  <span class="lead-duration duration">0.100</span>
+  <span class="lead-duration duration">0.102</span>
 
 </div>
 
@@ -1918,7 +1882,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
   <span class="keyword indention">And</span>
   <span class="name">user press on the search button</span>
 
-  <span class="lead-duration duration">0.668</span>
+  <span class="lead-duration duration">0.626</span>
 
 </div>
 
@@ -1945,7 +1909,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
   <span class="keyword indention">And</span>
   <span class="name">user click on the product in search result</span>
 
-  <span class="lead-duration duration">1.227</span>
+  <span class="lead-duration duration">1.223</span>
 
 </div>
 
@@ -1999,7 +1963,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-33">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-32">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -2011,13 +1975,13 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
     </div>
 
-    <div id="after-33" class="inner-level collapse collapsable-details ">
+    <div id="after-32" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">org.example.Step_Definitions.Hooks.close_browser()</span>
 
-  <span class="lead-duration duration">4.159</span>
+  <span class="lead-duration duration">3.672</span>
 
           </div>
 
@@ -2048,10 +2012,10 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 </div>
 
 
-  <span class="lead-duration duration">2.003</span>
+  <span class="lead-duration duration">1.936</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-34">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-33">
 
 <div class="brief passed">
   <span class="keyword indention">Scenario Outline</span>
@@ -2064,11 +2028,11 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
   </span>
   <div class="description indention"></div>
 
-  <div id="element-34" class="collapse collapsable-details ">
+  <div id="element-33" class="collapse collapsable-details ">
 
 
   <div class="inner-level hooks-element-before">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-35">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-34">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -2080,13 +2044,13 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
     </div>
 
-    <div id="before-35" class="inner-level collapse collapsable-details ">
+    <div id="before-34" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">Before</span>
               <span class="location name">org.example.Step_Definitions.Hooks.open_browser()</span>
 
-  <span class="lead-duration duration">2.169</span>
+  <span class="lead-duration duration">2.146</span>
 
           </div>
 
@@ -2103,7 +2067,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-36">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-35">
 
 <div class="brief passed">
   <span class="keyword indention">Steps</span>
@@ -2115,7 +2079,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
   </div>
 
-  <div id="steps-36" class="inner-level collapse collapsable-details ">
+  <div id="steps-35" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
@@ -2123,7 +2087,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
   <span class="keyword indention">When</span>
   <span class="name">user click on search box and write <span class="argument">&quot;APPLE_CAM&quot;</span></span>
 
-  <span class="lead-duration duration">0.095</span>
+  <span class="lead-duration duration">0.112</span>
 
 </div>
 
@@ -2150,7 +2114,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
   <span class="keyword indention">And</span>
   <span class="name">user press on the search button</span>
 
-  <span class="lead-duration duration">0.666</span>
+  <span class="lead-duration duration">0.672</span>
 
 </div>
 
@@ -2177,7 +2141,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
   <span class="keyword indention">And</span>
   <span class="name">user click on the product in search result</span>
 
-  <span class="lead-duration duration">1.214</span>
+  <span class="lead-duration duration">1.122</span>
 
 </div>
 
@@ -2203,238 +2167,6 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 <div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
   <span class="name"><span class="argument">&quot;APPLE_CAM&quot;</span> should appear successfully in product page</span>
-
-  <span class="lead-duration duration">0.027</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-  </div>
-</div>
-
-
-
-
-  <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-37">
-
-<div class="brief passed">
-  <span class="keyword indention">Hooks</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-    </div>
-
-    <div id="after-37" class="inner-level collapse collapsable-details ">
-        <div class="hook">
-          <div class="brief passed">
-            <span class="keyword indention">After</span>
-              <span class="location name">org.example.Step_Definitions.Hooks.close_browser()</span>
-
-  <span class="lead-duration duration">4.224</span>
-
-          </div>
-
-
-
-
-
-
-
-        </div>
-    </div>
-  </div>
-
-  </div>
-</div>
-
-
-<div class="element">
-    <div class="indention">
-      <b>Feature:</b>
-      <a href="report-feature_3_1920555754.html">F04_Product Search | user search for product</a>
-    </div>
-
-
-<div class="tags indention">
-    <b>Tags:</b>
-       <a href="report-tag_4089311534.html">@smoke</a>
-</div>
-
-
-  <span class="lead-duration duration">2.577</span>
-
-
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-38">
-
-<div class="brief passed">
-  <span class="keyword indention">Scenario Outline</span>
-  <span class="name">Logged user could search for product using sku</span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </span>
-  <div class="description indention"></div>
-
-  <div id="element-38" class="collapse collapsable-details ">
-
-
-  <div class="inner-level hooks-element-before">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-39">
-
-<div class="brief passed">
-  <span class="keyword indention">Hooks</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-    </div>
-
-    <div id="before-39" class="inner-level collapse collapsable-details ">
-        <div class="hook">
-          <div class="brief passed">
-            <span class="keyword indention">Before</span>
-              <span class="location name">org.example.Step_Definitions.Hooks.open_browser()</span>
-
-  <span class="lead-duration duration">1.580</span>
-
-          </div>
-
-
-
-
-
-
-
-        </div>
-    </div>
-  </div>
-
-
-
-<div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-40">
-
-<div class="brief passed">
-  <span class="keyword indention">Steps</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </div>
-
-  <div id="steps-40" class="inner-level collapse collapsable-details ">
-      <div class="step">
-
-
-<div class="brief step-name-When passed">
-  <span class="keyword indention">When</span>
-  <span class="name">user click on search box and write <span class="argument">&quot;SF_PRO_11&quot;</span></span>
-
-  <span class="lead-duration duration">0.113</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-And passed">
-  <span class="keyword indention">And</span>
-  <span class="name">user press on the search button</span>
-
-  <span class="lead-duration duration">0.642</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-And passed">
-  <span class="keyword indention">And</span>
-  <span class="name">user click on the product in search result</span>
-
-  <span class="lead-duration duration">1.794</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-Then passed">
-  <span class="keyword indention">Then</span>
-  <span class="name"><span class="argument">&quot;SF_PRO_11&quot;</span> should appear successfully in product page</span>
 
   <span class="lead-duration duration">0.028</span>
 
@@ -2463,7 +2195,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-41">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-36">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -2475,13 +2207,245 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
     </div>
 
-    <div id="after-41" class="inner-level collapse collapsable-details ">
+    <div id="after-36" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">org.example.Step_Definitions.Hooks.close_browser()</span>
 
-  <span class="lead-duration duration">3.393</span>
+  <span class="lead-duration duration">3.998</span>
+
+          </div>
+
+
+
+
+
+
+
+        </div>
+    </div>
+  </div>
+
+  </div>
+</div>
+
+
+<div class="element">
+    <div class="indention">
+      <b>Feature:</b>
+      <a href="report-feature_3_1920555754.html">F04_Product Search | user search for product</a>
+    </div>
+
+
+<div class="tags indention">
+    <b>Tags:</b>
+       <a href="report-tag_4089311534.html">@smoke</a>
+</div>
+
+
+  <span class="lead-duration duration">1.938</span>
+
+
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-37">
+
+<div class="brief passed">
+  <span class="keyword indention">Scenario Outline</span>
+  <span class="name">Logged user could search for product using sku</span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-37" class="collapse collapsable-details ">
+
+
+  <div class="inner-level hooks-element-before">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-38">
+
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+    </div>
+
+    <div id="before-38" class="inner-level collapse collapsable-details ">
+        <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">Before</span>
+              <span class="location name">org.example.Step_Definitions.Hooks.open_browser()</span>
+
+  <span class="lead-duration duration">2.234</span>
+
+          </div>
+
+
+
+
+
+
+
+        </div>
+    </div>
+  </div>
+
+
+
+<div class="steps inner-level">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-39">
+
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </div>
+
+  <div id="steps-39" class="inner-level collapse collapsable-details ">
+      <div class="step">
+
+
+<div class="brief step-name-When passed">
+  <span class="keyword indention">When</span>
+  <span class="name">user click on search box and write <span class="argument">&quot;SF_PRO_11&quot;</span></span>
+
+  <span class="lead-duration duration">0.102</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">user press on the search button</span>
+
+  <span class="lead-duration duration">0.643</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">user click on the product in search result</span>
+
+  <span class="lead-duration duration">1.162</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then passed">
+  <span class="keyword indention">Then</span>
+  <span class="name"><span class="argument">&quot;SF_PRO_11&quot;</span> should appear successfully in product page</span>
+
+  <span class="lead-duration duration">0.030</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+  </div>
+</div>
+
+
+
+
+  <div class="inner-level hooks-element-after">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-40">
+
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+    </div>
+
+    <div id="after-40" class="inner-level collapse collapsable-details ">
+        <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">After</span>
+              <span class="location name">org.example.Step_Definitions.Hooks.close_browser()</span>
+
+  <span class="lead-duration duration">4.033</span>
 
           </div>
 
@@ -2512,10 +2476,10 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 </div>
 
 
-  <span class="lead-duration duration">0.235</span>
+  <span class="lead-duration duration">0.252</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-42">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-41">
 
 <div class="brief passed">
   <span class="keyword indention">Scenario</span>
@@ -2528,11 +2492,11 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
   </span>
   <div class="description indention"></div>
 
-  <div id="element-42" class="collapse collapsable-details ">
+  <div id="element-41" class="collapse collapsable-details ">
 
 
   <div class="inner-level hooks-element-before">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-43">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-42">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -2544,13 +2508,13 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
     </div>
 
-    <div id="before-43" class="inner-level collapse collapsable-details ">
+    <div id="before-42" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">Before</span>
               <span class="location name">org.example.Step_Definitions.Hooks.open_browser()</span>
 
-  <span class="lead-duration duration">1.628</span>
+  <span class="lead-duration duration">1.717</span>
 
           </div>
 
@@ -2567,7 +2531,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-44">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-43">
 
 <div class="brief passed">
   <span class="keyword indention">Steps</span>
@@ -2579,7 +2543,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
   </div>
 
-  <div id="steps-44" class="inner-level collapse collapsable-details ">
+  <div id="steps-43" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
@@ -2587,7 +2551,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
   <span class="keyword indention">When</span>
   <span class="name">user click on the currency selector and choose the US currency</span>
 
-  <span class="lead-duration duration">0.075</span>
+  <span class="lead-duration duration">0.090</span>
 
 </div>
 
@@ -2614,7 +2578,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
   <span class="keyword indention">Then</span>
   <span class="name">US dollar symbol is chosen and displayed on all products</span>
 
-  <span class="lead-duration duration">0.160</span>
+  <span class="lead-duration duration">0.162</span>
 
 </div>
 
@@ -2641,7 +2605,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-45">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-44">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -2653,13 +2617,13 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
     </div>
 
-    <div id="after-45" class="inner-level collapse collapsable-details ">
+    <div id="after-44" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">org.example.Step_Definitions.Hooks.close_browser()</span>
 
-  <span class="lead-duration duration">4.181</span>
+  <span class="lead-duration duration">3.303</span>
 
           </div>
 
@@ -2690,10 +2654,10 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 </div>
 
 
-  <span class="lead-duration duration">1.335</span>
+  <span class="lead-duration duration">0.884</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-46">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-45">
 
 <div class="brief passed">
   <span class="keyword indention">Scenario</span>
@@ -2706,11 +2670,11 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
   </span>
   <div class="description indention"></div>
 
-  <div id="element-46" class="collapse collapsable-details ">
+  <div id="element-45" class="collapse collapsable-details ">
 
 
   <div class="inner-level hooks-element-before">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-47">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-46">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -2722,13 +2686,13 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
     </div>
 
-    <div id="before-47" class="inner-level collapse collapsable-details ">
+    <div id="before-46" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">Before</span>
               <span class="location name">org.example.Step_Definitions.Hooks.open_browser()</span>
 
-  <span class="lead-duration duration">2.124</span>
+  <span class="lead-duration duration">1.722</span>
 
           </div>
 
@@ -2745,7 +2709,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-48">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-47">
 
 <div class="brief passed">
   <span class="keyword indention">Steps</span>
@@ -2757,7 +2721,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
   </div>
 
-  <div id="steps-48" class="inner-level collapse collapsable-details ">
+  <div id="steps-47" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
@@ -2765,7 +2729,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
   <span class="keyword indention">When</span>
   <span class="name">user click on the currency selector and choose the Euro currency</span>
 
-  <span class="lead-duration duration">1.185</span>
+  <span class="lead-duration duration">0.727</span>
 
 </div>
 
@@ -2792,7 +2756,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
   <span class="keyword indention">Then</span>
   <span class="name">Euro symbol is chosen and displayed on all products</span>
 
-  <span class="lead-duration duration">0.150</span>
+  <span class="lead-duration duration">0.156</span>
 
 </div>
 
@@ -2819,7 +2783,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-49">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-48">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -2831,13 +2795,13 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
     </div>
 
-    <div id="after-49" class="inner-level collapse collapsable-details ">
+    <div id="after-48" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">org.example.Step_Definitions.Hooks.close_browser()</span>
 
-  <span class="lead-duration duration">3.302</span>
+  <span class="lead-duration duration">4.051</span>
 
           </div>
 
@@ -2868,10 +2832,10 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 </div>
 
 
-  <span class="lead-duration duration">1.076</span>
+  <span class="lead-duration duration">1.105</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-50">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-49">
 
 <div class="brief passed">
   <span class="keyword indention">Scenario</span>
@@ -2884,11 +2848,11 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
   </span>
   <div class="description indention"></div>
 
-  <div id="element-50" class="collapse collapsable-details ">
+  <div id="element-49" class="collapse collapsable-details ">
 
 
   <div class="inner-level hooks-element-before">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-51">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-50">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -2900,13 +2864,13 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
     </div>
 
-    <div id="before-51" class="inner-level collapse collapsable-details ">
+    <div id="before-50" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">Before</span>
               <span class="location name">org.example.Step_Definitions.Hooks.open_browser()</span>
 
-  <span class="lead-duration duration">1.692</span>
+  <span class="lead-duration duration">1.754</span>
 
           </div>
 
@@ -2923,7 +2887,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-52">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-51">
 
 <div class="brief passed">
   <span class="keyword indention">Steps</span>
@@ -2935,7 +2899,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
   </div>
 
-  <div id="steps-52" class="inner-level collapse collapsable-details ">
+  <div id="steps-51" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
@@ -2943,7 +2907,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
   <span class="keyword indention">When</span>
   <span class="name">user select random one of the three main categories</span>
 
-  <span class="lead-duration duration">0.236</span>
+  <span class="lead-duration duration">0.185</span>
 
 </div>
 
@@ -2970,7 +2934,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
   <span class="keyword indention">Then</span>
   <span class="name">user could hover on sub categories of the selected main category</span>
 
-  <span class="lead-duration duration">0.840</span>
+  <span class="lead-duration duration">0.920</span>
 
 </div>
 
@@ -2997,7 +2961,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-53">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-52">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -3009,13 +2973,13 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
     </div>
 
-    <div id="after-53" class="inner-level collapse collapsable-details ">
+    <div id="after-52" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">org.example.Step_Definitions.Hooks.close_browser()</span>
 
-  <span class="lead-duration duration">4.187</span>
+  <span class="lead-duration duration">3.914</span>
 
           </div>
 
@@ -3046,10 +3010,10 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 </div>
 
 
-  <span class="lead-duration duration">0.425</span>
+  <span class="lead-duration duration">0.427</span>
 
 
-  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-54">
+  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-53">
 
 <div class="brief failed">
   <span class="keyword indention">Scenario</span>
@@ -3062,11 +3026,11 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
   </span>
   <div class="description indention"></div>
 
-  <div id="element-54" class="collapse collapsable-details  in ">
+  <div id="element-53" class="collapse collapsable-details  in ">
 
 
   <div class="inner-level hooks-element-before">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-55">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-54">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -3078,13 +3042,13 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
     </div>
 
-    <div id="before-55" class="inner-level collapse collapsable-details ">
+    <div id="before-54" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">Before</span>
               <span class="location name">org.example.Step_Definitions.Hooks.open_browser()</span>
 
-  <span class="lead-duration duration">1.701</span>
+  <span class="lead-duration duration">1.824</span>
 
           </div>
 
@@ -3101,7 +3065,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-56">
+  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-55">
 
 <div class="brief failed">
   <span class="keyword indention">Steps</span>
@@ -3113,7 +3077,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
   </div>
 
-  <div id="steps-56" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-55" class="inner-level collapse collapsable-details  in ">
       <div class="step">
 
 
@@ -3121,7 +3085,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
   <span class="keyword indention">When</span>
   <span class="name">user clicks on the Nokia Lumia 1020 slider</span>
 
-  <span class="lead-duration duration">0.406</span>
+  <span class="lead-duration duration">0.411</span>
 
 </div>
 
@@ -3148,7 +3112,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
   <span class="keyword indention">Then</span>
   <span class="name">user should be directed to Nokia Lumia 1020 page</span>
 
-  <span class="lead-duration duration">0.018</span>
+  <span class="lead-duration duration">0.016</span>
 
 </div>
 
@@ -3159,10 +3123,10 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
   <div class="inner-level">
     <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-57">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-56">
           <a>java.lang.AssertionError:</a>
       </div>
-      <div id="msg-57" class="collapse collapsable-details  in ">
+      <div id="msg-56" class="collapse collapsable-details  in ">
         <pre>java.lang.AssertionError: expected [https://demo.nopcommerce.com/iphone-6] but found [https://demo.nopcommerce.com/]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1413)
@@ -3195,7 +3159,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-58">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-57">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -3207,13 +3171,13 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
     </div>
 
-    <div id="after-58" class="inner-level collapse collapsable-details ">
+    <div id="after-57" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">org.example.Step_Definitions.Hooks.close_browser()</span>
 
-  <span class="lead-duration duration">3.302</span>
+  <span class="lead-duration duration">3.777</span>
 
           </div>
 
@@ -3244,10 +3208,10 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 </div>
 
 
-  <span class="lead-duration duration">0.426</span>
+  <span class="lead-duration duration">0.431</span>
 
 
-  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-59">
+  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-58">
 
 <div class="brief failed">
   <span class="keyword indention">Scenario</span>
@@ -3260,11 +3224,11 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
   </span>
   <div class="description indention"></div>
 
-  <div id="element-59" class="collapse collapsable-details  in ">
+  <div id="element-58" class="collapse collapsable-details  in ">
 
 
   <div class="inner-level hooks-element-before">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-60">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-59">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -3276,13 +3240,13 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
     </div>
 
-    <div id="before-60" class="inner-level collapse collapsable-details ">
+    <div id="before-59" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">Before</span>
               <span class="location name">org.example.Step_Definitions.Hooks.open_browser()</span>
 
-  <span class="lead-duration duration">1.646</span>
+  <span class="lead-duration duration">1.687</span>
 
           </div>
 
@@ -3299,7 +3263,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-61">
+  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-60">
 
 <div class="brief failed">
   <span class="keyword indention">Steps</span>
@@ -3311,7 +3275,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
   </div>
 
-  <div id="steps-61" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-60" class="inner-level collapse collapsable-details  in ">
       <div class="step">
 
 
@@ -3319,7 +3283,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
   <span class="keyword indention">When</span>
   <span class="name">user clicks on the iPhone slider</span>
 
-  <span class="lead-duration duration">0.416</span>
+  <span class="lead-duration duration">0.421</span>
 
 </div>
 
@@ -3357,10 +3321,10 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
   <div class="inner-level">
     <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-62">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-61">
           <a>java.lang.AssertionError:</a>
       </div>
-      <div id="msg-62" class="collapse collapsable-details  in ">
+      <div id="msg-61" class="collapse collapsable-details  in ">
         <pre>java.lang.AssertionError: expected [https://demo.nopcommerce.com/nokia-lumia-1020] but found [https://demo.nopcommerce.com/]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1413)
@@ -3393,7 +3357,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-63">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-62">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -3405,13 +3369,13 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
     </div>
 
-    <div id="after-63" class="inner-level collapse collapsable-details ">
+    <div id="after-62" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">org.example.Step_Definitions.Hooks.close_browser()</span>
 
-  <span class="lead-duration duration">4.269</span>
+  <span class="lead-duration duration">3.865</span>
 
           </div>
 
@@ -3442,10 +3406,10 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 </div>
 
 
-  <span class="lead-duration duration">3.141</span>
+  <span class="lead-duration duration">3.119</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-64">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-63">
 
 <div class="brief passed">
   <span class="keyword indention">Scenario</span>
@@ -3458,11 +3422,11 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
   </span>
   <div class="description indention"></div>
 
-  <div id="element-64" class="collapse collapsable-details ">
+  <div id="element-63" class="collapse collapsable-details ">
 
 
   <div class="inner-level hooks-element-before">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-65">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-64">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -3474,13 +3438,13 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
     </div>
 
-    <div id="before-65" class="inner-level collapse collapsable-details ">
+    <div id="before-64" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">Before</span>
               <span class="location name">org.example.Step_Definitions.Hooks.open_browser()</span>
 
-  <span class="lead-duration duration">1.680</span>
+  <span class="lead-duration duration">1.797</span>
 
           </div>
 
@@ -3497,7 +3461,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-66">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-65">
 
 <div class="brief passed">
   <span class="keyword indention">Steps</span>
@@ -3509,7 +3473,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
   </div>
 
-  <div id="steps-66" class="inner-level collapse collapsable-details ">
+  <div id="steps-65" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
@@ -3517,7 +3481,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
   <span class="keyword indention">When</span>
   <span class="name">user clicks on facebook link</span>
 
-  <span class="lead-duration duration">0.122</span>
+  <span class="lead-duration duration">0.093</span>
 
 </div>
 
@@ -3544,7 +3508,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
   <span class="keyword indention">Then</span>
   <span class="name">user should be directed to the website facabook page</span>
 
-  <span class="lead-duration duration">3.019</span>
+  <span class="lead-duration duration">3.026</span>
 
 </div>
 
@@ -3571,7 +3535,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-67">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-66">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -3583,13 +3547,13 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
     </div>
 
-    <div id="after-67" class="inner-level collapse collapsable-details ">
+    <div id="after-66" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">org.example.Step_Definitions.Hooks.close_browser()</span>
 
-  <span class="lead-duration duration">3.309</span>
+  <span class="lead-duration duration">3.328</span>
 
           </div>
 
@@ -3620,10 +3584,10 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 </div>
 
 
-  <span class="lead-duration duration">3.262</span>
+  <span class="lead-duration duration">3.278</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-68">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-67">
 
 <div class="brief passed">
   <span class="keyword indention">Scenario</span>
@@ -3636,11 +3600,11 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
   </span>
   <div class="description indention"></div>
 
-  <div id="element-68" class="collapse collapsable-details ">
+  <div id="element-67" class="collapse collapsable-details ">
 
 
   <div class="inner-level hooks-element-before">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-69">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-68">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -3652,13 +3616,13 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
     </div>
 
-    <div id="before-69" class="inner-level collapse collapsable-details ">
+    <div id="before-68" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">Before</span>
               <span class="location name">org.example.Step_Definitions.Hooks.open_browser()</span>
 
-  <span class="lead-duration duration">1.708</span>
+  <span class="lead-duration duration">1.845</span>
 
           </div>
 
@@ -3675,7 +3639,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-70">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-69">
 
 <div class="brief passed">
   <span class="keyword indention">Steps</span>
@@ -3687,7 +3651,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
   </div>
 
-  <div id="steps-70" class="inner-level collapse collapsable-details ">
+  <div id="steps-69" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
@@ -3695,7 +3659,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
   <span class="keyword indention">When</span>
   <span class="name">user clicks on twitter link</span>
 
-  <span class="lead-duration duration">0.124</span>
+  <span class="lead-duration duration">0.097</span>
 
 </div>
 
@@ -3722,7 +3686,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
   <span class="keyword indention">Then</span>
   <span class="name">user should be directed to the website twitter page</span>
 
-  <span class="lead-duration duration">3.138</span>
+  <span class="lead-duration duration">3.181</span>
 
 </div>
 
@@ -3749,7 +3713,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-71">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-70">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -3761,13 +3725,13 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
     </div>
 
-    <div id="after-71" class="inner-level collapse collapsable-details ">
+    <div id="after-70" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">org.example.Step_Definitions.Hooks.close_browser()</span>
 
-  <span class="lead-duration duration">3.321</span>
+  <span class="lead-duration duration">3.350</span>
 
           </div>
 
@@ -3798,10 +3762,10 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 </div>
 
 
-  <span class="lead-duration duration">3.397</span>
+  <span class="lead-duration duration">3.388</span>
 
 
-  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-72">
+  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-71">
 
 <div class="brief failed">
   <span class="keyword indention">Scenario</span>
@@ -3814,11 +3778,11 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
   </span>
   <div class="description indention"></div>
 
-  <div id="element-72" class="collapse collapsable-details  in ">
+  <div id="element-71" class="collapse collapsable-details  in ">
 
 
   <div class="inner-level hooks-element-before">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-73">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-72">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -3830,13 +3794,13 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
     </div>
 
-    <div id="before-73" class="inner-level collapse collapsable-details ">
+    <div id="before-72" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">Before</span>
               <span class="location name">org.example.Step_Definitions.Hooks.open_browser()</span>
 
-  <span class="lead-duration duration">1.766</span>
+  <span class="lead-duration duration">1.748</span>
 
           </div>
 
@@ -3853,7 +3817,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-74">
+  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-73">
 
 <div class="brief failed">
   <span class="keyword indention">Steps</span>
@@ -3865,7 +3829,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
   </div>
 
-  <div id="steps-74" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-73" class="inner-level collapse collapsable-details  in ">
       <div class="step">
 
 
@@ -3873,7 +3837,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
   <span class="keyword indention">When</span>
   <span class="name">user clicks on rss link</span>
 
-  <span class="lead-duration duration">0.385</span>
+  <span class="lead-duration duration">0.375</span>
 
 </div>
 
@@ -3900,7 +3864,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
   <span class="keyword indention">Then</span>
   <span class="name">user should be directed to the website rss page</span>
 
-  <span class="lead-duration duration">3.012</span>
+  <span class="lead-duration duration">3.013</span>
 
 </div>
 
@@ -3911,10 +3875,10 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
   <div class="inner-level">
     <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-75">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-74">
           <a>java.lang.IndexOutOfBoundsException:</a>
       </div>
-      <div id="msg-75" class="collapse collapsable-details  in ">
+      <div id="msg-74" class="collapse collapsable-details  in ">
         <pre>java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1
 	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:100)
 	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:106)
@@ -3946,7 +3910,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-76">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-75">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -3958,13 +3922,13 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
     </div>
 
-    <div id="after-76" class="inner-level collapse collapsable-details ">
+    <div id="after-75" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">org.example.Step_Definitions.Hooks.close_browser()</span>
 
-  <span class="lead-duration duration">3.228</span>
+  <span class="lead-duration duration">3.269</span>
 
           </div>
 
@@ -3995,10 +3959,10 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 </div>
 
 
-  <span class="lead-duration duration">5.564</span>
+  <span class="lead-duration duration">4.668</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-77">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-76">
 
 <div class="brief passed">
   <span class="keyword indention">Scenario</span>
@@ -4011,11 +3975,11 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
   </span>
   <div class="description indention"></div>
 
-  <div id="element-77" class="collapse collapsable-details ">
+  <div id="element-76" class="collapse collapsable-details ">
 
 
   <div class="inner-level hooks-element-before">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-78">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-77">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -4027,13 +3991,13 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
     </div>
 
-    <div id="before-78" class="inner-level collapse collapsable-details ">
+    <div id="before-77" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">Before</span>
               <span class="location name">org.example.Step_Definitions.Hooks.open_browser()</span>
 
-  <span class="lead-duration duration">1.928</span>
+  <span class="lead-duration duration">1.699</span>
 
           </div>
 
@@ -4050,7 +4014,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-79">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-78">
 
 <div class="brief passed">
   <span class="keyword indention">Steps</span>
@@ -4062,7 +4026,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
   </div>
 
-  <div id="steps-79" class="inner-level collapse collapsable-details ">
+  <div id="steps-78" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
@@ -4070,7 +4034,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
   <span class="keyword indention">When</span>
   <span class="name">user clicks on youtube link</span>
 
-  <span class="lead-duration duration">0.110</span>
+  <span class="lead-duration duration">0.111</span>
 
 </div>
 
@@ -4097,7 +4061,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
   <span class="keyword indention">Then</span>
   <span class="name">user should be directed to the website youtube page</span>
 
-  <span class="lead-duration duration">5.454</span>
+  <span class="lead-duration duration">4.557</span>
 
 </div>
 
@@ -4124,7 +4088,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-80">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-79">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -4136,13 +4100,13 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
     </div>
 
-    <div id="after-80" class="inner-level collapse collapsable-details ">
+    <div id="after-79" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">org.example.Step_Definitions.Hooks.close_browser()</span>
 
-  <span class="lead-duration duration">3.683</span>
+  <span class="lead-duration duration">3.954</span>
 
           </div>
 
@@ -4173,10 +4137,10 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 </div>
 
 
-  <span class="lead-duration duration">0.425</span>
+  <span class="lead-duration duration">0.373</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-81">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-80">
 
 <div class="brief passed">
   <span class="keyword indention">Scenario</span>
@@ -4189,11 +4153,11 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
   </span>
   <div class="description indention"></div>
 
-  <div id="element-81" class="collapse collapsable-details ">
+  <div id="element-80" class="collapse collapsable-details ">
 
 
   <div class="inner-level hooks-element-before">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-82">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-81">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -4205,13 +4169,13 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
     </div>
 
-    <div id="before-82" class="inner-level collapse collapsable-details ">
+    <div id="before-81" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">Before</span>
               <span class="location name">org.example.Step_Definitions.Hooks.open_browser()</span>
 
-  <span class="lead-duration duration">1.898</span>
+  <span class="lead-duration duration">2.249</span>
 
           </div>
 
@@ -4228,7 +4192,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-83">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-82">
 
 <div class="brief passed">
   <span class="keyword indention">Steps</span>
@@ -4240,185 +4204,7 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
 
   </div>
 
-  <div id="steps-83" class="inner-level collapse collapsable-details ">
-      <div class="step">
-
-
-<div class="brief step-name-When passed">
-  <span class="keyword indention">When</span>
-  <span class="name">user clicks on the wishlist button</span>
-
-  <span class="lead-duration duration">0.062</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-Then passed">
-  <span class="keyword indention">Then</span>
-  <span class="name">the product is added to wishlist and success message appears</span>
-
-  <span class="lead-duration duration">0.363</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-  </div>
-</div>
-
-
-
-
-  <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-84">
-
-<div class="brief passed">
-  <span class="keyword indention">Hooks</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-    </div>
-
-    <div id="after-84" class="inner-level collapse collapsable-details ">
-        <div class="hook">
-          <div class="brief passed">
-            <span class="keyword indention">After</span>
-              <span class="location name">org.example.Step_Definitions.Hooks.close_browser()</span>
-
-  <span class="lead-duration duration">4.193</span>
-
-          </div>
-
-
-
-
-
-
-
-        </div>
-    </div>
-  </div>
-
-  </div>
-</div>
-
-
-<div class="element">
-    <div class="indention">
-      <b>Feature:</b>
-      <a href="report-feature_8_2399259506.html">F09_Wishlist | user add products to wishlist</a>
-    </div>
-
-
-<div class="tags indention">
-    <b>Tags:</b>
-       <a href="report-tag_4089311534.html">@smoke</a>
-</div>
-
-
-  <span class="lead-duration duration">4.093</span>
-
-
-  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-85">
-
-<div class="brief failed">
-  <span class="keyword indention">Scenario</span>
-  <span class="name">user could click on &quot;Wishlist&quot; Tab</span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </span>
-  <div class="description indention"></div>
-
-  <div id="element-85" class="collapse collapsable-details  in ">
-
-
-  <div class="inner-level hooks-element-before">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-86">
-
-<div class="brief passed">
-  <span class="keyword indention">Hooks</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-    </div>
-
-    <div id="before-86" class="inner-level collapse collapsable-details ">
-        <div class="hook">
-          <div class="brief passed">
-            <span class="keyword indention">Before</span>
-              <span class="location name">org.example.Step_Definitions.Hooks.open_browser()</span>
-
-  <span class="lead-duration duration">1.663</span>
-
-          </div>
-
-
-
-
-
-
-
-        </div>
-    </div>
-  </div>
-
-
-
-<div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-87">
-
-<div class="brief failed">
-  <span class="keyword indention">Steps</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </div>
-
-  <div id="steps-87" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-82" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
@@ -4449,59 +4235,11 @@ Session ID: 89a6438cff1ebee742759c4d02f168d5
       <div class="step">
 
 
-<div class="brief step-name-And failed">
-  <span class="keyword indention">And</span>
-  <span class="name">user waits until success message disappears and clicks on wishlist Tab</span>
-
-  <span class="lead-duration duration">4.024</span>
-
-</div>
-
-
-
-
-
-
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-88">
-          <a>org.openqa.selenium.TimeoutException:</a>
-      </div>
-      <div id="msg-88" class="collapse collapsable-details  in ">
-        <pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to no longer be visible: By.cssSelector: div[class=&quot;bar-notification success&quot;] (tried for 4 second(s) with 500 milliseconds interval)
-Build info: version: '4.7.1', revision: 'c6795baf1a3'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.100, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\745G5~1\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52079}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52079/devtoo..., se:cdpVersion: 108.0.5359.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: c69e01cdd4c56a6d97dd051c4b6fa070
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
-	at org.example.Step_Definitions.D09_Wishlist_StepDefinitions.click_wishlistTab(D09_Wishlist_StepDefinitions.java:50)
-	at &#10045;.user waits until success message disappears and clicks on wishlist Tab(file:///D:/E-Commerce%20Website%20Project/E-Commerce_Website_Testing/src/main/resources/Features_Folder/F09_Wishlist.feature:11)
-</pre>
-      </div>
-    </div>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-Then skipped">
+<div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
-  <span class="name">product is existed in the wishlist</span>
+  <span class="name">the product is added to wishlist and success message appears</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.304</span>
 
 </div>
 
@@ -4528,7 +4266,7 @@ Session ID: c69e01cdd4c56a6d97dd051c4b6fa070
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-89">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-83">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -4540,13 +4278,218 @@ Session ID: c69e01cdd4c56a6d97dd051c4b6fa070
 
     </div>
 
-    <div id="after-89" class="inner-level collapse collapsable-details ">
+    <div id="after-83" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">org.example.Step_Definitions.Hooks.close_browser()</span>
 
-  <span class="lead-duration duration">3.294</span>
+  <span class="lead-duration duration">3.295</span>
+
+          </div>
+
+
+
+
+
+
+
+        </div>
+    </div>
+  </div>
+
+  </div>
+</div>
+
+
+<div class="element">
+    <div class="indention">
+      <b>Feature:</b>
+      <a href="report-feature_8_2399259506.html">F09_Wishlist | user add products to wishlist</a>
+    </div>
+
+
+<div class="tags indention">
+    <b>Tags:</b>
+       <a href="report-tag_4089311534.html">@smoke</a>
+</div>
+
+
+  <span class="lead-duration duration">15.650</span>
+
+
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-84">
+
+<div class="brief passed">
+  <span class="keyword indention">Scenario</span>
+  <span class="name">user could click on &quot;Wishlist&quot; Tab</span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-84" class="collapse collapsable-details ">
+
+
+  <div class="inner-level hooks-element-before">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-85">
+
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+    </div>
+
+    <div id="before-85" class="inner-level collapse collapsable-details ">
+        <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">Before</span>
+              <span class="location name">org.example.Step_Definitions.Hooks.open_browser()</span>
+
+  <span class="lead-duration duration">1.647</span>
+
+          </div>
+
+
+
+
+
+
+
+        </div>
+    </div>
+  </div>
+
+
+
+<div class="steps inner-level">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-86">
+
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </div>
+
+  <div id="steps-86" class="inner-level collapse collapsable-details ">
+      <div class="step">
+
+
+<div class="brief step-name-When passed">
+  <span class="keyword indention">When</span>
+  <span class="name">user clicks on the wishlist button</span>
+
+  <span class="lead-duration duration">0.064</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">user waits until success message disappears and clicks on wishlist Tab</span>
+
+  <span class="lead-duration duration">15.549</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">product is existed in the wishlist</span>
+
+  <span class="lead-duration duration">0.037</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+  </div>
+</div>
+
+
+
+
+  <div class="inner-level hooks-element-after">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-87">
+
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+    </div>
+
+    <div id="after-87" class="inner-level collapse collapsable-details ">
+        <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">After</span>
+              <span class="location name">org.example.Step_Definitions.Hooks.close_browser()</span>
+
+  <span class="lead-duration duration">3.257</span>
 
           </div>
 
