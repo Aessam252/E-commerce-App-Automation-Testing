@@ -1,0 +1,4 @@
+file:src/main/resources/Features_Folder/F06_HoverOnCategories.feature:5
+file:src/main/resources/Features_Folder/F07_Home_Sliders.feature:5:11
+file:src/main/resources/Features_Folder/F08_FollowUs.feature:15
+file:src/main/resources/Features_Folder/F09_Wishlist.feature:9
